@@ -74,7 +74,7 @@ void print_doned_job(job *jobs)
 
 int main()
 {
-    int n, rc;
+    int n, rc = ok;
     if (fscanf(stdin, "%d", &n) == 1 && n > 0)
     {
         job *jobs = malloc(sizeof(job));
@@ -103,4 +103,5 @@ int main()
             rc = error;
         }
     }
+    return rc;
 }
