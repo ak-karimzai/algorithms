@@ -42,6 +42,12 @@
 *.idb
 *.pdb
 
+#cpp
+*.cpp
+*.o
+*.out
+*.c
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd
